@@ -1,0 +1,23 @@
+.container {
+  flex: 0 0 auto;
+  width: 320px;
+  height: 240px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
